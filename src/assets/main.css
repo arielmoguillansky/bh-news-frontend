@@ -1,0 +1,61 @@
+@import "./base.css";
+
+main {
+  padding: 2rem;
+  max-width: 1024px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.header input{
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  transition: all .2s ease;
+}
+
+.header input:focus{
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+  outline: none;
+}
+
+.articleCard {
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.articleCard .heading{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.articleCard .footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.articleCard .content{
+  font-size: 16px;
+  padding: 16px;
+  min-height: 100px;
+}
